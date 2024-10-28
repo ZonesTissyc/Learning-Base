@@ -4,7 +4,7 @@ Recording and store some files.
 
 记录和存储我的学习代码.
 
-目前正在学习以下
+目前正在学习以下内容
 
 - [Linux][def]
 - [Python][def2]
