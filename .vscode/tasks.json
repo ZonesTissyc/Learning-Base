@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++",
+
+            // 编译器路径，如果是C++则使用g++.exe，如果是C语言则使用gcc.exe
+            "command": "C:/MinGW/mingw64/bin/gcc.exe",
+            "args": [
+                // 输入给终端的参数
+                "-fdiagnostics-color=always",
+                "",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/bin/${fileBasenameNoExtension}.exe",//生成exe文件的路径(不支持中文命名C/C++文件)
+                //"${fileDirname}/bin/test.exe",//生成exe文件的路径(支持中文命名C/C++文件)
+                "-fexec-charset=GBK",//编码格式(按照GBK格式输出可以显示中文字符)
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
