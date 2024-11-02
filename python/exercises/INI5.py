@@ -4,6 +4,16 @@
 
 # open and read the simple text.
 
-f = open('INI5-test.txt','r')
+f = open("F:\git\ZonesTissyc\Learning-Base\python\exercises\INI5-test.txt",'r')
 
-f.readline()[]
+lines = f.readlines().strip()
+
+n_lines = len(lines)
+
+n = n_lines
+
+i = 1
+
+while i !> n :
+    while i%2 == 0
+    g = 
