@@ -1,1 +1,0 @@
-function y=Yfzx2_y2(theta,phi);st=sin(theta);ct=cos(theta);y=1/4*sqrt(105/pi)*st.*st.*ct.*cos(2*phi);

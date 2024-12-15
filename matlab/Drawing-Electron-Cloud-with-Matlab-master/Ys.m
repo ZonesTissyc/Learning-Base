@@ -1,1 +1,0 @@
-function y=Ys(theta,phi);y=sqrt(1/4/pi)*phi.^0;
