@@ -75,8 +75,6 @@
 
 下载直链 [nekoray.zip][nekoray-4.0.1]
 
----
-
 ### Tailscale
 
 官网地址 <https://www.tailscale.com>
