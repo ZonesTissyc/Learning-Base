@@ -38,6 +38,8 @@
 
 下载直链 [CopyQ][CopyQ]
 
+---
+
 ## 音量控制
 
 ### EarTrumpet
@@ -46,11 +48,24 @@
 
 下载直链 [EarTrumpet][EarTrumpet]
 
+---
+
 ## 截图
 
 ### Snipaste
 
 官网地址 <https://zh.snipaste.com/>
+
+---
+
+## 哈希校验
+
+### HashCaculator
+
+项目地址 <https://github.com/hrpzcf/HashCalculator>
+下载直链 [HashCaculator][HashCaculator]
+
+---
 
 ## 代理工具
 
@@ -59,6 +74,8 @@
 项目地址 <https://github.com/MatsuriDayo/nekoray>
 
 下载直链 [nekoray.zip][nekoray-4.0.1]
+
+---
 
 ### Tailscale
 
@@ -76,3 +93,4 @@
 [CopyQ]: https://github.com/hluk/CopyQ/releases/download/v9.1.0/copyq-9.1.0-setup.exe
 [EarTrumpet]: https://apps.microsoft.com/detail/9nblggh516xp?
 [nekoray-4.0.1]: https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip
+[HashCaculator]: https://github.com/hrpzcf/HashCalculator/releases/download/5.28.0/HashCalculator-5.28.0.zip
