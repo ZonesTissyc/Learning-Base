@@ -1,8 +1,20 @@
 \documentclass{ctexart}
+
 \usepackage{chemfig}
 \usepackage{mhchem} %化学式宏包
+\usepackage{tcolorbox} % 用于添加边框
+\usepackage{mdframed}
+\usepackage{amsmath} % 支持更好的公式对齐
+
+\title{烷烃与环烷烃的反应方程式}
+\author{ZonesTissyc}
+\date{\today}
+
+
 
 \begin{document}
+\section{烷烃的化学性质}
+
 
 \text{酮与氰化氢加成：}\ce{\chemfig{CH_3C(=[1]O)(-[7]CH_3)} + \chemfig{CN(-[2]H)} ->T[催化剂] \chemfig{CH_3(-[0]C(-[2]OH)(-[0]CN)(-[6]CH3))}}
 
@@ -11,4 +23,25 @@
 
 \text{多极碳：}\ce{\chemfig{C(-[1,0.7]OH)(-[2,0.7]OH)(-[3,0.7]OH)(-[4,0.7]OH)(-[5,0.7]OH)(-[6,0.7]OH)(-[7,0.7]OH)(-[0,1]OH)}}
 
+\vspace{1cm}
+{\CJKfamily{zhhei}1.氧化反应}
+\[
+\ce{2C_nH_{2n+2} + (3\textit{n} +1) O_2 -> 2n CO_2 + 2(\textit{n} +1) H_2O}
+\]
+
+\begin{tcolorbox}[colframe=blue!70, colback=blue!5, boxrule=1mm, arc=4mm, width=\textwidth, enlarge left by=0mm]
+\[
+\ce{2C_nH_{2n+2} + (3\textit{n} +1) O_2 -> 2n CO_2 + 2(\textit{n} +1) H_2O}
+\]
+\end{tcolorbox}
+
+{\CJKfamily{zhhei}2.热裂反应}
+
+\[
+\ce{CH3CH2CH2CH3 -> *CH3 + *CH2CH2CH3}
+\]
+
+\[
+\ce{CH3CH2CH2CH3 -> CH3CH2* + *CH2CH3}
+\]
 \end{document}
