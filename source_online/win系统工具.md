@@ -30,6 +30,14 @@
 
 ---
 
+## 注册表优化
+
+### Dismm++
+
+项目地址 <https://github.com/Chuyu-Team/Dism-Multi-language>
+
+下载直链 [Dism++][Dism++]
+
 ## 剪贴板
 
 ### CopyQ
@@ -92,3 +100,4 @@
 [EarTrumpet]: https://apps.microsoft.com/detail/9nblggh516xp?
 [nekoray-4.0.1]: https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip
 [HashCaculator]: https://github.com/hrpzcf/HashCalculator/releases/download/5.28.0/HashCalculator-5.28.0.zip
+[Dism++]: https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1002.2/Dism++10.1.1002.1B.zip
