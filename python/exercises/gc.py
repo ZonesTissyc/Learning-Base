@@ -1,9 +1,9 @@
 from gc_count import gc_count
-fo = open('gc_dna2.txt',"r")
+fo = open('python\exercises\gc_dna2.txt',"r")
 
-ls = []
-name = []
-i = -1
+ls = [] # 创建列表，用于存储每个dna序列
+name = [] # 创建列表，存储每个序列的编号，索引与dna序列对应
+i = -1 # 用于列表索引
 for line in fo:
     if(line[0]=='>'):
         i += 1
