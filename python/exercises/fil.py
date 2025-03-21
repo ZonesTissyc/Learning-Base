@@ -1,0 +1,1 @@
+fil = open("gc.txt",'rt')
